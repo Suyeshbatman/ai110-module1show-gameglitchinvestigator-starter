@@ -46,6 +46,7 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📸 Demo
 
 - [ ] [Insert a screenshot of your fixed, winning game here]
+      ![Screenshot of the fixed, winning game!](images/CODEPATHAI_PROJECT1.png)
 
 ## 🚀 Stretch Features
 
