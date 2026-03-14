@@ -5,8 +5,12 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 ## 1. What was broken when you started?
 
 - What did the game look like the first time you ran it?
-- List at least two concrete bugs you noticed at the start  
-  (for example: "the hints were backwards").
+  Immediately noticed the "Developer Debug Info" section in the page. Upon clicking on it, I could see the "Secret", even before starting the game.
+- List at least two concrete bugs you noticed at the start
+  1."Show Hint" shows a glitching "Stop" sign at the top right corner before "Deploy" link for a breif second and disappears. The hints dont change with every answer submitted, even if the user needs       to go lower or higher it will keep on displaying "Go Higher" or "Go Lower" continuously.
+  2. Attempts Left counter does not work. Hint
+  3. Upon ending the game and winning, the game does not reset when "New Game" button is clicked but the details in "Developer Debug Info" changes. 
+  
 
 ---
 
