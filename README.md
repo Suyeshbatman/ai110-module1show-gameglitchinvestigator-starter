@@ -26,8 +26,22 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📝 Document Your Experience
 
 - [ ] Describe the game's purpose.
+   The game's purpose was to guess a random number between a range of three difficulty levels, Easy 1-20, Normal 1-50 and Hard 1-100, in 5 attempts or less, with an updated score.
 - [ ] Detail which bugs you found.
+   1."Show Hint" shows a glitching "Stop" sign at the top right corner before "Deploy" link for a breif second and disappears. The hints are backwards. "Too High" and "Too Low" are correct but "Go    Higher" and "Go Lower" are backwards.
+  2. Attempts Left counter does not work. Display says "1 to 100" regardless of difficulty
+  3. Upon ending the game and winning, the game does not reset when "New Game" button is clicked but the details in "Developer Debug Info" changes.
 - [ ] Explain what fixes you applied.
+   -Bug 1: Fix Hard difficulty range (was easier than Normal)                                                                                                  
+   - Bug 2: Swap backwards hint messages (HIGHER/LOWER were reversed)                                                                                             
+   - Bug 3: Remove str() cast of secret on even attempts
+   - Bug 4: Use dynamic low/high in display instead of hardcoded 1 to 100  
+   - Bug 5: New Game now uses difficulty-based range for random secret
+   - Bug 6: Fix initial attempts count (was 1, should be 0)
+   - Bug 7: Fix inconsistent 'Too High' scoring (even/odd parity issue)
+   - Bug 8: Fix win score formula (removed erroneous +1 penalty)
+   - Bug 9: Move attempt increment after input validation
+   - Bug 10: Rewrite broken test suite with 34 comprehensive tests
 
 ## 📸 Demo
 
